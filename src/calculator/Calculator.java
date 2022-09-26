@@ -9,7 +9,7 @@ public class Calculator {
                 {
                     System.out.println("select option");
                     System.out.println("1.Addition");
-                    System.out.println("2.substractiob");
+                    System.out.println("2.subtraction");
                     System.out.println("3.multiplication");
                     System.out.println("4.Division");
                     System.out.println("5.exit");
@@ -25,7 +25,7 @@ public class Calculator {
                             break;
                         case 2:
 
-                            System.out.println("substraction");
+                            System.out.println("subtraction");
                             System.out.println(x-y);
                             break;
                         case 3:
@@ -38,7 +38,6 @@ public class Calculator {
                             System.out.println(x/y);
                             break;
                         case 5:
-
                             System.exit(0);
                     }
                 }
