@@ -24,7 +24,14 @@ public class Employee {
                             emplist.add(empname);
                             break;
                         case 2:
-                            System.out.println(emplist);
+                            if(emplist.size()==0)
+                            {
+                                System.out.println("no employee added");
+                            }
+                            else {
+
+                                System.out.println(emplist);
+                            }
                             break;
                         case 3:
                             System.exit(0);
