@@ -1,5 +1,6 @@
 package hotelbill;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Hotelbill {
@@ -8,14 +9,15 @@ public class Hotelbill {
             {
                 int choice;
                 System.out.println("hotelbill");
+                Fooditems foodItems=new Fooditems(10,50,70,120,30);
                 while(true)
                 {
                     System.out.println("select the option");
-                    System.out.println("1.tea RS.20");
-                    System.out.println("2.snaks RS.50 ");
-                    System.out.println("3.Juice RS.70 ");
-                    System.out.println("4.biriyani RS.120 ");
-                    System.out.println("5. ice cream RS.30 ");
+                    System.out.println("1.Add tea "+"price=>"+foodItems.getTea());
+                    System.out.println("2.Add snacks"+"price==>"+foodItems.getSnacks());
+                    System.out.println("3.Add juice "+"price==>"+foodItems.getJuice());
+                    System.out.println("4.biriyani "+"price==>"+foodItems.getBiriyani());
+                    System.out.println("5. ice cream "+"price==>"+foodItems.getIcecream());
                     System.out.println("6. exit ");
 
                     Scanner s =new Scanner(System.in);
